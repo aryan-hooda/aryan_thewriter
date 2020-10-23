@@ -1,0 +1,32 @@
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.4s ease;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.logo img{
+    float: left;
+    width: 300;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
