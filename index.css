@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: powderblue;
+}
+
+p {
+  color: black;
+}
+
+a>img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ul{
+    float: inherit;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+ul li:active a{
+    background-color: black;
+    color: white;
+}
+
+.logo img{
+    float: left;
+    width: 150;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
