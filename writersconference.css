@@ -1,5 +1,22 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: powderblue;
+}
+
+p {
+  color: black;
+}
+
+a>img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 ul{
-    float: right;
+    float: inherit;
     list-style-type: none;
 }
 
@@ -9,15 +26,21 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: black;
+    color: orange;
     padding: 5px 20px;
-    border: 1px solid black;
-    transition: 0.4s ease;
+    border: 1px solid white;
+    transition: 0.5s ease;
 }
 
 ul li a:hover{
-    background-color: black;
-    color: white;
+    background-color: orange;
+    color: black;
+    border: 1px solid orange;
+}
+
+ul li:active a{
+    background-color: white;
+    color: black;
 }
 
 .logo img{
@@ -29,4 +52,10 @@ ul li a:hover{
 .main{
     max-width: 1200px;
     margin: auto;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 30px
 }
