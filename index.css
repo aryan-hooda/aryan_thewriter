@@ -33,8 +33,9 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: white;
+    background-color: orange;
     color: black;
+    border: 1px solid orange;
 }
 
 ul li:active a{
