@@ -59,3 +59,40 @@ footer{
     color: white;
     margin: 30px
 }
+
+ol{
+    float: right;
+    list-style-type: none;
+}
+
+ol li{
+    display: inline-block
+}
+
+ol li a{
+    text-decoration: underline;
+    color: deepskyblue;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.5s ease;
+}
+
+ol li a:hover{
+    background-color: deepskyblue;
+    color: black;
+    border: 1px solid deepskyblue;
+}
+
+ol li:active a{
+    background-color: white;
+    color: black;
+}
+
+pre{
+    font-family:fantasy;
+    text-align: right;
+}
+   
+h2{
+    font-family: cursive;
+}
